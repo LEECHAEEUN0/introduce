@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'GangwonEdu_OTFBoldA'
+}
+h1{
+    font-size: 45px;
+    color: mediumslateblue
+}
+
+h2{
+    font-size: 45px;
+    color: seagreen
+}
+
+h1,h2{
+    text-align: left;
+}

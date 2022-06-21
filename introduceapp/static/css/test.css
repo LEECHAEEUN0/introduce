@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Cafe24Ssurround';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+/* 페이지 전체에 글꼴을 설정하기 위해 */
+body{
+    font-family: 'Cafe24Ssurround';
+    background-image: url(https://media.istockphoto.com/photos/neo-mint-background-grunge-texture-paper-cotton-concrete-cement-mint-picture-id1174704913?b=1&k=20&m=1174704913&s=170667a&w=0&h=lcsAg2HNfDfYGEJQbhKTJN9qr9zu-73DOBqBfGLPaHA=);
+    background-size: cover;
+}
+
+article{
+    padding: 50px;
+    margin: 20px;
+}
+
+table{
+    padding: 50px auto;
+    margin: 20px auto;
+}
+
+h1{
+    font-size: 45px;
+    color: orange
+}
+
+h2{
+    font-size: 35px;
+    color: purple;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+blockquote, footer{
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/flex.css' %}">
+    <title>갤러리</title>
+{% endblock %}
+    
+{% block gallary %}
+<body>
+  <!-- 수정 코드 2 -->
+  <div class="flex-container1">
+    <img class="flex-item" src="{% static 'img/sleep(h).jpg' %}">
+    <img class="flex-item" src="{% static 'img/sopa(c).jpg' %}">
+    <img class="flex-item" src="{% static 'img/coco.jpg' %}">
+  </div> 
+  <div class="flex-container2">
+    <img class="flex-item" src="{% static 'img/snowman.jpg' %}">
+    <img class="flex-item" src="{% static 'img/dog.jpg' %}">
+    <img class="flex-item" src="{% static 'img/skateboard.jpg' %}">
+  </div>
+  <div class="flex-container3"> 
+    <img class="flex-item" src="{% static 'img/disney.jpg' %}">
+    <img class="flex-item" src="{% static 'img/marvel(h).jpg' %}">
+    <img class="flex-item" src="{% static 'img/jeju(h).jpg' %}">
+  </div> 
+ 
+  </body>
+{% endblock %}

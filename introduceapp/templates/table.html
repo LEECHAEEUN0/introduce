@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+   <link rel="stylesheet" type="text/css" href="{% static 'css/table.css' %}">
+   <title>시간표 과제</title>
+{% endblock %}
+    <!--이것은 20줄 6칸짜리 테이블-->
+
+    {% block schedule %}
+    <tr>
+        <h2>시간표 - 202211134 이채은</h2>
+    </tr>
+    <div class="row align-items-center">
+    <span class="border border-warning"></span>  <!--여기에 첫 번째 부트스트랩 사용했습니다.-->
+    <table border="1">
+        <tr>
+            <div class="col">
+            <td></td>
+            <td>월</p></td>
+            <td>화</p></td>
+            <td>수</p></td>
+            <td>목</p></td>
+            <td>금</p></td>
+        </div>
+        </tr>
+        <div class="col"><tr><td rowspan="2" >9시</td><td rowspan="6" bgcolor="00ffff">대중서사의이해<br>박미란<br>09:~11:50<br>1503</td><td></td><td></td><td></td><td></td></tr></div>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td rowspan="2">10시</td><td rowspan="4" bgcolor="ffc0cb">인권과평화<br>조경희<br>10:00~11:50<br>M402</td><td></td><td></td><td rowspan="4" bgcolor="ee82ee">과학기술과에너지<br>신익상<br>10:00~11:50<br>3501</td></tr>
+        <tr><td></td><td></td></tr>
+        <tr><td rowspan="2">11시</td><td></td><td rowspan="2" bgcolor="7fffd4">연극과영성<br>장수철<br>11:00~11:50<br>3501</td></tr>
+        <tr><td></td></tr>
+        <tr><td rowspan="2">12시</td><td></td><td rowspan="2" bgcolor="00ff7f">기초영어다의어<br>권용현<br>12:00~13:15<br>7207</td><td rowspan="6" bgcolor="ffa500">문예창작과감상<br>진정석<br>12:00~14:50<br>3301</td><td rowspan="2" bgcolor="00ff7f">기초영어다의어<br>권용현<br>12:00~13:15<br>7207</td><td></td></tr>
+        <tr><td></td><td></td></tr>
+        <tr><td rowspan="2">1시</td><td></td><td></td><td></td><td rowspan="4" bgcolor="e9967a">대학생활세미나<br>이주엽<br>13:00~14:50<br>M407</td></tr>
+        <tr><td></td><td></td><td></td></tr>
+        <tr><td rowspan="2">2시</td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td></tr>
+        <tr><td rowspan="2">3시</td><td rowspan="6" bgcolor="db7093">연극과공연예술<br>장수철<br>15:00~17:50<br>M205</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td rowspan="2">4시</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td rowspan="2">5시</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td></tr>
+        <tr><td rowspan="2">6시</td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    </div>
+    {% endblock %}
